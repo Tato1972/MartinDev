@@ -1,16 +1,6 @@
 # Ignorar carpeta node_modules
 node_modules
 
-# Ignorar todos los archivos de texto
-*.txt
-
-# Ignorar archivos rar
-*.rar
-
-# Ignorar archivos cvs
-*.cvs
-
-
 # Ignorar archivos relacionados con claves de una API
 .env
 
