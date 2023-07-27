@@ -1,0 +1,21 @@
+DB_USER=postgres
+DB_PASSWORD=Tato2019
+DB_HOST=localhost
+
+
+
+Cuando desaparece Dashboard
+
+Pruebe Archivo - Preferencias - Panel de control dentro de PGAdmin. Vea si alternar esas opciones lo traerá de vuelta.
+
+De lo contrario, siempre que no tenga ningún diseño personalizado, pruebe Archivo - Restablecer diseño.
+
+En SQL Shell(psql)
+postgres-# \c django.example
+Ahora está conectado a la base de datos «django.example» con el usuario «postgres».
+
+django.example-# \c
+Ahora está conectado a la base de datos «django.example» con el usuario «postgres».
+django.example-# l
+django.example-# dbproduct
+django.example-#
